@@ -1,13 +1,11 @@
 # data-analytics
 PET-проект представляет собой извлечение при помощи PostgreSQL, обработку при помощи pandas и визуализацию при помощи matplotlib реальных данных.
 
-Датасет: [https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+Датасет: [https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 Предварительно из датасета исключена таблица olist_geolocation_dataset, поскольку в ней нет уникальных данных, а также изменены названия столбцов всех таблиц на более короткие. Нормализация данных не проводилась. Таким образом, схема базы данных для дальнейшей работы выглядит так:
 
 ![Схема БД](./images/scheme.png)
-
-Все CSV-файлы загружены в качестве таблиц в PostgreSQL-БД, таблицам добавлены первичные и внешние ключи, столбцам указаны нужные типы данных. Удалены строки, у которых в поле для первичного ключа было значение NULL.
 
 ## Задание № 1
 С использованием PostgreSQL написать SQL-запросы для извлечения из БД следующих данных:
