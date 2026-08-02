@@ -1,4 +1,4 @@
-# data-analytics
+# Извлечение, обработка и визуализация реальных данных
 PET-проект представляет собой извлечение при помощи PostgreSQL, обработку при помощи pandas и визуализацию при помощи matplotlib реальных данных.
 
 Датасет: [https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
