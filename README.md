@@ -25,7 +25,7 @@
 
 По извлечённым данным построил дашборд из 9 диаграмм (находится в файле dashboard.pbix):
 
-![Схема БД](./images/dashboard.png)
+![Схема БД](./images/dashboard_new.png)
 
 ### 2. Python
 
